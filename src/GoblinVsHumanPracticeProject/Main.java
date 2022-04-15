@@ -20,5 +20,7 @@ public class Main {
         window.setLocationRelativeTo(null);
         //be able to see window
         window.setVisible(true);
+
+        gamePanel.startGameThread();
     }
 }
